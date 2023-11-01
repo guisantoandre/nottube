@@ -73,45 +73,73 @@ export const playlists = [
 
 export const subscriptions = [
    {
-      label: "Fireship",
-      id: "Fireship",
+      label: "Code With Antonio",
+      id: "codeWitAntonio",
       imgUrl:
-         "https://yt3.googleusercontent.com/ytc/APkrFKb--NH6RwAGHYsD3KfxX-SAgWgIHrjR5E4Jb5SDSQ=s176-c-k-c0x00ffffff-no-rj",
+         "https://yt3.ggpht.com/O8iON5EAVx6HVKyOV5UMreLFI_0D3mJX373vTEGoNcVRpNP7Lq8swha7BSLWTiEWlZaF7a4ENW8=s48-c-k-c0x00ffffff-no-rj",
       url: "#",
    },
    {
-      label: "Caleb Curry",
-      id: "CalebCurry",
+      label: "JavaScript Mastery",
+      id: "javascriptMastery",
       imgUrl:
-         "https://yt3.googleusercontent.com/ytc/APkrFKbpSojje_-tkBQecNtFuPdSCrg3ZT0FhaYjln9k0g=s176-c-k-c0x00ffffff-no-rj",
+         "https://yt3.ggpht.com/wg1TITEoPfxvBGfzuqWyt3bqm_qu35ZhMswUv3feetU3xNX_6wsAXZF40OlPIgY4TmqbqCmAZ1U=s48-c-k-c0x00ffffff-no-rj",
+      url: "#",
+   },
+   {
+      label: "Traversy Media",
+      id: "traversyMedia",
+      imgUrl:
+         "https://yt3.ggpht.com/ytc/APkrFKYcYswt_UhD7D0j6ddiQz6Gb8Q_vSJOjhYI0CoXSw=s48-c-k-c0x00ffffff-no-rj",
+      url: "#",
+   },
+   {
+      label: "Design Course",
+      id: "designCourse",
+      imgUrl:
+         "https://yt3.ggpht.com/ytc/APkrFKY3neeB_kYbM4HUg5WyzUCPzuPcx5ZkamGyZTEiAQ=s48-c-k-c0x00ffffff-no-rj",
+      url: "#",
+   },
+   {
+      label: "Origamid",
+      id: "origamid",
+      imgUrl:
+         "https://yt3.ggpht.com/ytc/APkrFKY8NPDbVnHt0uXhOyeAstAIE9EmbKILn5dpFyCO=s48-c-k-c0x00ffffff-no-rj",
+      url: "#",
+   },
+   {
+      label: "Josh tried code",
+      id: "joshTriedCode",
+      imgUrl:
+         "https://yt3.ggpht.com/BOomnT3SS1g-FQSUVBy51TaK2ylqbQzD8zeV783mM-W1q3MMbvE8jdjEeWwFqHmlm5Dk4dSAtg=s48-c-k-c0x00ffffff-no-rj",
       url: "#",
    },
    {
       label: "Web Dev Simplified",
-      id: "WebDevSimplified",
+      id: "webDevSimplified",
       imgUrl:
          "https://yt3.ggpht.com/ytc/APkrFKZWeMCsx4Q9e_Hm6nhOOUQ3fv96QGUXiMr1-pPP=s48-c-k-c0x00ffffff-no-rj",
       url: "#",
    },
    {
-      label: "Kevin Powell",
-      id: "KevinPowell",
+      label: "Programming With Mosh",
+      id: "programmingWihMosh",
       imgUrl:
-         "https://yt3.ggpht.com/ytc/APkrFKa6XiLa13mMVPzkmmTBcgNPjjqCGPrY86KfJFmf5w=s48-c-k-c0x00ffffff-no-rj",
+         "https://yt3.ggpht.com/tBEPr-zTNXEeae7VZKSZYfiy6azzs9OHowq5ZvogJeHoVtKtEw2PXSwzMBKVR7W0MI7gyND8=s68-c-k-c0x00ffffff-no-rj",
       url: "#",
    },
    {
-      label: "Sonny Sangha",
-      id: "SonnySangha",
+      label: "Bonieky",
+      id: "bonieky",
       imgUrl:
-         "https://yt3.ggpht.com/FjeN785fVWx0Pr6xCbwPhhq8hHj_gocc3FygDXYDEQgp2gE_FQzRNsFHFAjQ3oE-VJaeGR1a=s68-c-k-c0x00ffffff-no-rj",
+         "https://yt3.ggpht.com/ytc/APkrFKYRAw-kgF7Xjg8yxWeBTTcyYf16ou3Ir8rW5TVRxg=s48-c-k-c0x00ffffff-no-rj",
       url: "#",
    },
    {
-      label: "Traversy Media",
-      id: "TraversyMedia",
+      label: "Pedro Tech",
+      id: "pedroTech",
       imgUrl:
-         "https://yt3.googleusercontent.com/ytc/APkrFKYcYswt_UhD7D0j6ddiQz6Gb8Q_vSJOjhYI0CoXSw=s176-c-k-c0x00ffffff-no-rj-mo",
+         "https://yt3.ggpht.com/tLOaVyDRQq46qga99PFlP9b3PRcni8gBJepNOecsgIdADpxU10p6w0VD-fZ8VvtqeldN6IHYOj0=s48-c-k-c0x00ffffff-no-rj",
       url: "#",
    },
 ];

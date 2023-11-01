@@ -52,7 +52,7 @@ export function VideoItem({
          onMouseEnter={() => setIsVidePlaying(true)}
          onMouseLeave={() => setIsVidePlaying(false)}
       >
-         <a href={`/watch?v=${id}`} className="relative aspect-video">
+         <a href="#" className="relative aspect-video">
             <img
                src={thumbnailUrl}
                className={`block w-full h-full object-cover transition-[border-radius] duration-200 ${
@@ -74,7 +74,7 @@ export function VideoItem({
             ></video>
          </a>
          <div className="flex gap-2">
-            <a href={`/@${channel.id}`} className="flex-shrink-0">
+            <a href="#" className="flex-shrink-0">
                <img
                   src={channel.profileUrl}
                   alt="profile picture"
@@ -83,12 +83,12 @@ export function VideoItem({
             </a>
             <div className="flex flex-col">
                <a
-                  href={`/watch?v=${id}`}
-                  className="font-bold leading-tight mb-1"
+                  href="#"
+                  className="font-bold leading-tight mb-1 line-clamp-2"
                >
                   {title}
                </a>
-               <a href={`/@${channel.id}`} className="text-secondary-text">
+               <a href="#" className="text-secondary-text">
                   {channel.name}
                </a>
                <div className="text-secondary-text text-sm">
