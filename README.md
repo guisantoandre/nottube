@@ -1,3 +1,5 @@
 ## Youtube Clone
 
-A youtube clone made with Nextjs and Typescript
+A youtube clone built with NextJS and Typescript
+
+> Link: **[NotTube](https://nottube.vercel.app/)** <br>
