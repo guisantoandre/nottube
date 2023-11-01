@@ -8,7 +8,7 @@ export function Header() {
    const [showSearchForm, setShowSearchForm] = React.useState(false);
 
    return (
-      <header className="flex gap-10 lg:gap-20 justify-between pt-2 pb-2 px-4">
+      <header className="flex gap-2 md:gap-7 lg:gap-20 justify-between pt-2 pb-2 px-4">
          <ToggleBtnAndLogo hidden={showSearchForm} />
 
          <form
@@ -54,13 +54,13 @@ export function Header() {
             >
                <Search />
             </Button>
-            <Button variant="ghost" size="icon" className="md:hidden">
+            <Button variant="ghost" size="icon" className="hidden md:block">
                <Mic />
             </Button>
-            <Button variant="ghost" size="icon">
+            <Button variant="ghost" size="icon" className="hidden md:block">
                <Video />
             </Button>
-            <Button variant="ghost" size="icon">
+            <Button variant="ghost" size="icon" className="hidden md:block">
                <Bell />
             </Button>
             <Button variant="ghost" size="icon">

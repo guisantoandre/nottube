@@ -16,11 +16,11 @@ export default function Home() {
             <Header />
             <div className="grid grid-cols-[auto,1fr] flex-grow-1 overflow-auto">
                <Sidebar />
-               <div className="overflow-x-hidden px-6 pb-4">
+               <div className="overflow-x-hidden px-4 pb-4">
                   <div className="sticky top-0 z-50 bg-white">
                      <CategoryBtn />
                   </div>
-                  <div className="col-start-2 grid gap-y-6 gap-x-4 grid-cols-[repeat(auto-fill,minmax(300px,1fr))] mt-4">
+                  <div className="col-start-2 grid gap-y-6 gap-x-4 grid-cols-[repeat(auto-fill,minmax(230px,1fr))] mt-4">
                      {videos.map((video) => (
                         <VideoItem key={video.id} {...video} />
                      ))}
