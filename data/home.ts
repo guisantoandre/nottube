@@ -1,3 +1,5 @@
+import { Clapperboard, Home, Library } from "lucide-react";
+
 export const categories = [
    "All",
    "JavaScript",
@@ -144,5 +146,23 @@ export const videos = [
       thumbnailUrl: "https://i.ytimg.com/vi/kxT8-C1vmd4/maxresdefault.jpg",
       videoUrl:
          "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+   },
+];
+
+export const sidebarItems = [
+   {
+      label: "Home",
+      icon: Home,
+      url: "#",
+   },
+   {
+      label: "Subscriptions",
+      icon: Clapperboard,
+      url: "#",
+   },
+   {
+      label: "Library",
+      icon: Library,
+      url: "#",
    },
 ];

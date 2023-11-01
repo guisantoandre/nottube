@@ -45,7 +45,7 @@ export function CategoryBtn() {
    }
 
    return (
-      <div ref={categoryContainerRef} className="overflow-x-hidden">
+      <div ref={categoryContainerRef} className="overflow-x-hidden relative">
          <div
             className="flex whitespace-nowrap gap-3 w-[max-content] my-2 transition-transform"
             style={{ transform: `translateX(-${translate}px)` }}
