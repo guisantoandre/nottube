@@ -20,7 +20,7 @@ export default function Home() {
                   <div className="sticky top-0 z-50 bg-white">
                      <CategoryBtn />
                   </div>
-                  <div className="col-start-2 grid gap-y-6 gap-x-4 grid-cols-[repeat(auto-fill,minmax(230px,1fr))] mt-4">
+                  <div className="col-start-2 grid gap-y-6 gap-x-4 grid-cols-[repeat(auto-fill,minmax(230px,1fr))] md:grid-cols-[repeat(auto-fill,minmax(310px,1fr))] mt-4">
                      {videos.map((video) => (
                         <VideoItem key={video.id} {...video} />
                      ))}
