@@ -1,25 +1,16 @@
 import { ArrowLeft, Bell, Menu, Mic, Search, User, Video } from "lucide-react";
+
 import { Button } from "@/components/ui/button";
 import React from "react";
+import { ToggleBtnAndLogo } from "./togglebtn-and-logo";
 
 export function Header() {
    const [showSearchForm, setShowSearchForm] = React.useState(false);
 
    return (
-      <header className="flex gap-10 lg:gap-20 justify-between pt-2 pb-4 px-4">
-         <div
-            className={`items-center flex-shrink-0 gap-2 md:gap-3 ${
-               showSearchForm ? "hidden" : "flex"
-            }`}
-         >
-            <Button variant="ghost" size="icon">
-               <Menu />
-            </Button>
+      <header className="flex gap-10 lg:gap-20 justify-between pt-2 pb-2 px-4">
+         <ToggleBtnAndLogo hidden={showSearchForm} />
 
-            <a href="/" className="font-black text-2xl tracking-tighter">
-               NotTube
-            </a>
-         </div>
          <form
             className={`gap-4 flex-grow items-center justify-center ${
                showSearchForm ? "flex" : "hidden md:flex"
