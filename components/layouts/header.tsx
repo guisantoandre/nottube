@@ -54,7 +54,7 @@ export function Header() {
             >
                <Search />
             </Button>
-            <Button variant="ghost" size="icon" className="hidden md:block">
+            <Button variant="ghost" size="icon" className="hidden">
                <Mic />
             </Button>
             <Button variant="ghost" size="icon" className="hidden md:block">
